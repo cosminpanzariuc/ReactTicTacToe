@@ -1,6 +1,6 @@
 import { useState } from 'react';
 // eslint-disable-next-line react/prop-types
-export function Player({ initialName, symbol }) {
+export default function Player({ initialName, symbol }) {
   const [playerName, setPlayerName] = useState(initialName);
   const [isEditing, setIsEditing] = useState(false);
 
